@@ -1,0 +1,145 @@
+.nft-main{
+    margin: 40px;
+}
+
+.nft-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nft-col{
+   text-align: left; 
+   max-width: 30%;
+   display: flex;
+   flex-direction: column;
+}
+
+.nft-border{
+    width: 463px;
+    /* height: 581px; */
+    border: 2px solid #4D545C;
+    border-radius: 4px;
+    padding: 10px 2px 10px 20px;
+    /* width: 90% ; */
+}
+
+.nft-border >h1{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    /* text-align: center; */
+    letter-spacing: 2.1875px;
+    color: #171A1C;
+}
+
+.nft-border>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 55%; */
+    width: 263px;
+    height: 369px;
+}
+
+.nft-para-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.nft-button{
+    /* background-color: ; */
+    text-transform: uppercase;
+    background: #417B66;
+    border: white;
+    border-radius: 6px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+    padding: 4px 1.5rem 4px;
+    margin-right: 1.3rem;
+}
+
+.nft-button:hover{
+    background:#4D545C;
+}
+
+.nft-col >h1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 3.125px;
+    text-align: left;
+    color: #171A1C;
+    max-width: 85%;
+}
+
+.nft-col >p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #171A1C;
+}
+
+.box{
+    box-sizing: border-box;
+    border: 1px solid #4D545C;
+    border-radius: 5px;
+    max-width: fit-content;
+    padding: 10px 20px;
+}
+
+.box >h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #171A1C;
+}
+
+.series{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 1.375px;
+    color: #8895A4;
+    margin: 0 0 0.7rem;
+}
+
+.box >p {
+    color: #171A1C;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 1.375px;
+}
+
+.nft-eth{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 53px;
+    line-height: 35px;
+    letter-spacing: 3.3125px;
+    color: #2E5DEF;
+}

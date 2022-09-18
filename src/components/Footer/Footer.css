@@ -1,0 +1,113 @@
+.footer-container {
+    background-color: #F3F9FF;
+    padding: 1rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-heading {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-decoration-line: underline;
+    color: #171A1C;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .footer-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-link-wrapper {
+    display: flex;
+  }
+  
+  .footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    box-sizing: border-box;
+  }
+  
+  .footer-link-items h2 {
+    margin: 0px 8px;
+  }
+  
+  .website-rights {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #171A1C;
+    margin-top: 20px;
+  }
+
+  .footer-link-logo-set{
+    color: #417B66;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-line{
+    width: 726px;
+    height: 1px;
+    background:  #4D545C;
+    border: 1px solid #4D545C;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .footer-links {
+      padding-top: 2rem;
+    }
+  
+    .footer-input {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .footer-link-wrapper {
+      flex-direction: column;
+    }
+  
+    .website-rights {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .footer-heading{
+      text-align: center;
+    }
+    .footer-line{
+      width: 100%;
+      /* margin: 1rem ; */
+      height: 1px;
+      background:  #4D545C;
+      border: 1px solid #4D545C;
+    }
+    .website-rights >p{
+      max-width: 60%;
+      /* text-align: center; */
+    }
+  }

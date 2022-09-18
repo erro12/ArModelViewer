@@ -1,0 +1,248 @@
+/* .creatorCard{ */
+    /* color: #171A1C;
+    padding: 25px 0; */
+/* } */
+
+/* .creator-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 00.5rem 2rem 0.6rem 2rem;    
+}
+
+.creator-row{
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}*/
+
+/* .col{
+    margin: 0 1rem 0 1rem;
+    padding-left: 1.3rem;
+    max-width: 45%;
+}
+
+.creator-text-wrapper{
+    display: block;
+    padding-bottom: 3.5rem;
+    text-align: start;
+} */
+
+/* .heading{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.15rem;
+    line-height: 2.5rem;
+    letter-spacing: 2.1875px;
+    color: #171A1C;
+}
+
+
+.creator-text-wrapper >p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 1.125px;
+    padding: 0 1.3rem 0 1.3rem;
+    margin: 0.2rem;
+}
+.quote-title{
+    float: right;
+} */
+
+/* .creator-img-wrapper{
+    max-width: 40rem;
+} */
+
+/* .creator-img{ 
+    max-width: 95%;
+    padding-right: 0;
+    margin: 0 0 0 10px;
+}
+
+.img{
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.row-creator-row{
+    display: 'flex';
+    flex-direction: 'row-reverse';
+    align-items: center;
+    justify-content: space-around;
+    
+} */
+
+.creator-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.creator-row{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0 2rem 0 2rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.creator-col{
+    max-width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+}
+
+.creator-img-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+}
+.creator-img{
+   /* display: block;  */
+   max-width: 23rem;
+   max-height: 24rem;
+}
+.heading{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.15rem;
+    line-height: 2.5rem;
+    letter-spacing: 2.1875px;
+    color: #171A1C;  
+    max-width: 80%;
+    text-align: start;
+    margin: 0 0 0 2rem;
+}
+
+.creator-col >p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 1.125px;
+    padding: 0 0.3rem 0 0.3rem;
+    /* margin: 0.6rem; */
+    width: 90%;    
+}
+
+.creator-quote{
+    margin: 1rem 2rem 0 2rem;
+    text-align: justify;
+}
+.quote-title{
+    text-align: end;
+} 
+
+.creator-img-mobile{
+    display: none;
+}
+
+.title-name{
+    color:#2E5DEF;
+    margin: 4px;
+}
+
+.title-span{
+    color: #417B66;
+    margin: 4px;
+    text-decoration: underline;
+}
+
+
+@media screen and(min-width:768px) and(max-width: 1194px) {
+    /* .container{
+        padding-right: 30px;
+        padding-left: 30px;
+    } */
+    /* .creator-img-container{
+        width: 35%;
+    } */
+    /* .creator-img{
+        width: 17rem;
+        height: 20rem;
+    } */
+    /* .creator-img{
+        width: 180px;
+        height: 220px;
+    } */
+    .creator-col{
+        padding: 0.6rem;
+    }
+    .heading{
+        max-width: 95%;
+        font-size: 1.9rem;
+        line-height: 1.5rem;
+    }
+
+    .creator-img-container{
+        /* display: flex;
+        flex-direction: column; */
+        max-width: 35%;
+    }
+    .creator-img{
+        /* display: block;  */
+        width: 17rem;
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* .row-creator-row{
+        flex-direction: column;
+    } */
+
+    .creator-row{
+        flex-direction: column;
+    }
+
+    .creator-img-container{
+        display: none;
+    }
+    .creator-col{
+        max-width: 90%;
+        margin: 0.7rem;
+    }
+
+    .heading{
+        max-width: 100%;
+        font-size: 1.9rem;
+        line-height: 1.9rem;
+        margin:1rem;
+    }
+
+    .creator-img-mobile{
+        display: block;
+    }
+
+    /* .creator-text-wrapper{
+        padding-bottom: 65px;
+    }
+
+    .col{
+        max-width: 100%;
+        flex-basis: 100%;
+    } */
+}

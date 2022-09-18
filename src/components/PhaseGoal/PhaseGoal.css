@@ -1,0 +1,103 @@
+.PhaseGoalCard {
+    margin: 10% 20% 10% ;
+  }
+
+.PhaseGoal-container{
+    position: relative;
+    /* margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 25px;
+    margin-bottom: 60px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+}
+
+.PhaseGoal-row{
+    /* margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px; */
+    align-content: stretch;
+    align-items: center;
+}
+
+.PhaseGoal-col{
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.PhaseGoal-text-wrapper{
+    text-align: center;
+    padding: 5% 20% 5%;
+}
+
+.heading-1{
+    margin: 10px auto;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.875px;
+    color: #171A1C;
+}
+
+.heading-2{
+    margin: 10px auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 2.8125px;
+    color: #171A1C;
+}
+
+.PhaseGoal-subtitle{
+    margin: 10px auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.875px;
+
+    color: #171A1C;
+}
+
+.PhaseGoal-text-1{
+    max-width: 431px;
+    margin: 10px auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #171A1C;
+}
+
+.PhaseGoal-text-2{
+    max-width: 510px;
+    margin: 10px auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.875px;
+    color: #000000;
+}
+
+.PhaseGoal-img-wrapper{
+    max-width: 100%;
+}
+
+.PhaseGoal-img{
+    max-width: 97px;
+    margin: 0 auto;
+}
