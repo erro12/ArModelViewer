@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.533f0882.css",
+    "main.js": "/static/js/main.c1595a28.js",
+    "static/media/creator.png": "/static/media/creator.441121c4d3d09bd3900a.png",
+    "static/media/nft-cardset.png": "/static/media/nft-cardset.f53a9b9fa7246b89c1d4.png",
+    "static/media/powerful-pine-card.png": "/static/media/powerful-pine-card.2f55824d769b82b22d07.png",
+    "index.html": "/index.html",
+    "main.533f0882.css.map": "/static/css/main.533f0882.css.map",
+    "main.c1595a28.js.map": "/static/js/main.c1595a28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.533f0882.css",
+    "static/js/main.c1595a28.js"
+  ]
+}
